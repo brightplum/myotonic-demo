@@ -23,7 +23,7 @@ body {
   padding: 12px 20px;
   font-weight: 700;
   background-color: #fff;
-  color: rgb(19 79 80);
+  color: #134f50;
 }
 
 .button {
@@ -33,7 +33,7 @@ body {
   border-radius: 4px;
   padding: 12px 20px;
   font-weight: 700;
-  background-color: rgb(19 79 80);
+  background-color: #134f50;
   color: #fff;
 }
 
@@ -52,7 +52,7 @@ h3 {
 /* header */
 
 header {
-  background-color: rgb(19 79 80);
+  background-color: #134f50;
 }
 
 header img {
@@ -99,7 +99,7 @@ nav li {
   display: flex;
   flex-direction: column;
   width: 33%;
-  border: 2px solid rgb(19 79 80);
+  border: 2px solid #134f50;
 }
 
 .card .image img {
@@ -170,6 +170,16 @@ nav li {
 }
 
 /* Video categories */
+.video-categories-section {
+  background-color: #134f50;
+  padding: 64px 0;
+}
+
+.video-categories-section h3 {
+  color: #fff;
+  margin-bottom: 60px;
+}
+
 .video-categories {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -179,7 +189,7 @@ nav li {
 
 .video-categories svg {
   width: 60px;
-  fill: #fff;
+  fill: #134f50;
 }
 
 .video-categories .category {
@@ -187,21 +197,34 @@ nav li {
   flex-direction: column;
   align-items: center;
   text-decoration: none;
-  color: #000;
+  color: #fff;
+}
+
+.video-categories .category:hover svg {
+  fill: #33c18c;
+} 
+
+.video-categories .category:hover p {
+  text-decoration: underline;
+}
+
+.video-categories .category:hover .dm2-icon {
+  text-decoration: none;
+  color: #33c18c;
 }
 
 .icon {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  background-color: rgb(19 79 80);
+  background-color: #fff;
   display: flex;
   justify-content: center;
 }
 
 .dm2-icon {
   font-size: 43px;
-  color: #fff;
+  color: #134f50;
 }
 
 /* Fonts */
