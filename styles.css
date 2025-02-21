@@ -59,6 +59,7 @@ header img {
   padding: 20px 0;
   width: 140px;
   height: auto;
+  cursor: pointer;
 }
 
 .header-nav {
@@ -85,6 +86,7 @@ nav li {
   color: #fff;
   padding: 0 15px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 /* cards */
@@ -173,11 +175,13 @@ nav li {
 .video-categories-section {
   background-color: #134f50;
   padding: 64px 0;
+  margin-top: 65px;
 }
 
 .video-categories-section h3 {
   color: #fff;
   margin-bottom: 60px;
+  margin-top: 0;
 }
 
 .video-categories {
