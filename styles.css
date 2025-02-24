@@ -26,6 +26,11 @@ body {
   color: #134f50;
 }
 
+.button-nav:hover {
+  background-color: #33c18c;
+  color: #fff;
+}
+
 .button {
   cursor: pointer;
   display: inline-block;
@@ -37,16 +42,42 @@ body {
   color: #fff;
 }
 
+.button:hover {
+  background-color: #33c18c;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
 h2 {
+  font-size: 26px;
+  margin-top: 10px;
+}
+
+h3 {
   font-size: 35px;
   color: #032145;
   margin-bottom: 30px;
 }
 
-h3 {
+h4 {
   font-size: 25px;
   color: #032145;
   margin-bottom: 30px;
+}
+
+h5 {
+  font-size: 20px;
+  margin: 0;
+}
+
+p {
+  line-height: 24px;
+  font-size: 18px;
+  font-family: Merriweather-sans;
+  font-weight: 300;
 }
 
 /* header */
@@ -89,7 +120,42 @@ nav li {
   cursor: pointer;
 }
 
-/* cards */
+/* Hero */
+
+.hero-section {
+  background-image: url("images/Rai_0.jpg");
+  background-size: cover;
+  padding: 150px 0;
+}
+
+.hero-callout {
+  width: 500px;
+  background-color: #134f50;
+  color: #fff;
+  padding: 50px;
+  border-radius: 4px;
+}
+
+.hero-callout h1 {
+  margin: 0;
+}
+
+.hero-callout .button-nav {
+  margin-top: 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Cards */
+
+.digital-academy {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.digital-academy h3 {
+  margin-top: 0;
+}
 
 .cards-component {
   display: flex;
@@ -102,6 +168,7 @@ nav li {
   flex-direction: column;
   width: 33%;
   border: 2px solid #134f50;
+  background-color: #f4f6f7;
 }
 
 .card .image img {
@@ -123,7 +190,6 @@ nav li {
 
 .card-body {
   padding: 24px;
-  background-color: #f4f6f7;
 }
 
 /* search */
@@ -178,7 +244,7 @@ nav li {
   margin-top: 65px;
 }
 
-.video-categories-section h3 {
+.video-categories-section h4 {
   color: #fff;
   margin-bottom: 60px;
   margin-top: 0;
@@ -189,6 +255,12 @@ nav li {
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   justify-items: center;
+}
+
+@media all and (max-width: 992px) {
+  .video-categories {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .video-categories svg {
@@ -202,6 +274,7 @@ nav li {
   align-items: center;
   text-decoration: none;
   color: #fff;
+  text-align: center;
 }
 
 .video-categories .category:hover svg {
@@ -215,6 +288,7 @@ nav li {
 .video-categories .category:hover .dm2-icon {
   text-decoration: none;
   color: #33c18c;
+  
 }
 
 .icon {
@@ -229,6 +303,24 @@ nav li {
 .dm2-icon {
   font-size: 43px;
   color: #134f50;
+  display: flex;
+  align-items: center;
+}
+
+/* Text - image */
+
+.text-image {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.text-image h4 {
+  margin-top: 0;
+}
+
+.text-image-body {
+  display: flex;
+  gap: 30px;
 }
 
 /* Fonts */
@@ -237,3 +329,10 @@ nav li {
   font-family: Merriweather;
   src: url(fonts/Merriweather-Regular.ttf);
 }
+
+@font-face {
+  font-family: Merriweather-sans;
+  src: url(fonts/MerriweatherSans-VariableFont_wght.ttf);
+}
+
+
