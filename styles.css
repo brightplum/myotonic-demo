@@ -137,9 +137,13 @@ nav li {
   cursor: pointer;
 }
 
-nav a {
+nav li a {
   color: #fff;
   text-decoration: none;
+}
+
+nav li a:visited {
+  color: #fff;
 }
 
 nav a:hover {
