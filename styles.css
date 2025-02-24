@@ -91,6 +91,12 @@ p.small {
   margin: 5px 0;
 }
 
+ul li {
+  font-family:  Merriweather-sans;
+  font-weight: 300;
+  font-size: 18px;
+}
+
 /* header */
 
 header {
@@ -129,6 +135,15 @@ nav li {
   padding: 0 15px;
   font-size: 16px;
   cursor: pointer;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 /* Hero */
@@ -405,6 +420,67 @@ nav li {
   justify-content: space-between;
 }
 
+/* internal page */
+.internal-hero {
+  background-image: url("images/JOA-Group_0.jpg");
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.internal-hero-callout {
+  padding: 40px;
+  background-color: #032145;
+  position: absolute;
+  bottom: 0;
+}
+
+.internal-hero-callout h1 {
+  margin: 0;
+  color: #fff;
+}
+
+.main-body-component {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  gap: 60px;
+}
+
+.main-content {
+  width: 80%;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 20%;
+}
+
+.sidebar h2 {
+  color: #032145;
+}
+
+.sidebar-card {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #032145;
+}
+
+.sidebar-img {
+  margin-top: 20px;
+}
+
+.sidebar-img img {
+  width: 128px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.sidebar-body .large {
+  color: #33c18c;
+}
 
 /* Fonts */
 
