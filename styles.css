@@ -131,13 +131,13 @@ nav ul {
 }
 
 nav li {
-  color: #fff;
+  color: #fff !important;
   padding: 0 15px;
   font-size: 16px;
   cursor: pointer;
 }
 
-nav li a {
+nav a {
   color: #fff;
   text-decoration: none;
 }
