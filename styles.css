@@ -258,6 +258,7 @@ header img {
   position: absolute;
   z-index: 400;
   top: 94px;
+      box-shadow: 2px 4px 6px 0 rgb(0 0 0 / 66%);
 }
 
 .nav__submenu.megamenu .grid {
@@ -382,7 +383,7 @@ header img {
   color: #fff;
   padding: 50px;
   border-radius: 4px;
-      box-shadow: 2px 4px 6px 0 rgb(41 45 50 / 66%);
+  box-shadow: 2px 4px 6px 0 rgb(41 45 50 / 66%);
 }
 
 @media all and (max-width: 768px) {
