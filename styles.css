@@ -183,6 +183,7 @@ header img {
 
 .desktop-nav a {
   text-decoration: none;
+  color: #fff;
 }
 
 .desktop-nav li a:visited {
@@ -190,7 +191,7 @@ header img {
 }
 
 .desktop-nav li a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .desktop-nav li span {
