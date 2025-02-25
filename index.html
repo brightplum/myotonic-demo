@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Myotonic Static Page</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
       <div class="container header-nav">
         <a href="#"><img src="images/logo.gif" width="214" height="90" alt="Home"></a>
-        <nav>
+        <nav class="desktop-nav">
           <ul>
             <li><a href="myotonic-dystrophy/index.html">Myotonic Dystrophy</a></li>
             <li>Research</li>
@@ -21,6 +22,32 @@
           </ul>
           <a class="button-nav">Donate</a>
         </nav>
+        <!-- Mobile menu -->
+        <div class="mobile-menu">
+          <input id="menu-toggler" type="checkbox" class="menu-toggler">
+          <label for="menu-toggler" class="show-menu">
+            <span></span>
+          </label>
+          <nav class="mobile-nav">
+            <ul class="nav__menu">
+              <li class="nav__item">
+                <a href="myotonic-dystrophy/index.html" class="nav__link">Myotonic Dystrophy</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link">Research</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link">Support & Care</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link">Get Involved</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link">About Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <section class="hero-section">
