@@ -186,6 +186,14 @@ header img {
   color: #fff;
 }
 
+.desktop-nav a.button-nav {
+  color: #0f3a3b;
+}
+
+.desktop-nav a.button-nav:hover {
+  color: #fff;
+}
+
 .desktop-nav li a:visited {
   color: #fff;
 }
