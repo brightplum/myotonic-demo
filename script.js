@@ -20,3 +20,26 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const menuButton = document.querySelector(".nav__button");
+
+  if (menuButton) {
+    menuButton.addEventListener("click", function () {
+      const isExpanded = this.getAttribute("aria-expanded") === "true";
+      this.setAttribute("aria-expanded", !isExpanded);
+
+      // Find the associated submenu using aria-controls
+      const submenuId = this.getAttribute("aria-controls");
+      const submenu = document.getElementById(submenuId);
+
+      if (submenu) {
+        if (!isExpanded) {
+          submenu.removeAttribute("hidden");
+        } else {
+          submenu.setAttribute("hidden", "");
+        }
+      }
+    });
+  }
+});
